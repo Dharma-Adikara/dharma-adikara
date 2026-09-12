@@ -1092,6 +1092,103 @@ header {
     .map-frame {
         height: 220px;
     }
+    .homepage .container {
+        width: 92% !important;
+    }
+    .home-hero {
+        min-height: 680px;
+        padding: 58px 18px 110px;
+    }
+    .home-hero-content {
+        padding: 12px 4px;
+    }
+    .home-hero .hero-logo {
+        height: 105px;
+        margin-bottom: 24px;
+        width: 105px;
+    }
+    .home-hero h1 {
+        font-size: clamp(2.65rem, 13vw, 4rem);
+        line-height: 1.02;
+        margin-bottom: 20px;
+    }
+    .home-hero p {
+        font-size: 1rem;
+        line-height: 1.65;
+    }
+    .hero-actions {
+        gap: 10px;
+        margin-top: 27px;
+    }
+    .hero-button {
+        font-size: 0.86rem;
+        padding: 12px 16px;
+    }
+    .home-intro {
+        padding-top: 32px;
+    }
+    .intro-heading h2,
+    .home-section-head h2 {
+        font-size: 2rem;
+        line-height: 1.15;
+    }
+    .intro-copy p,
+    .home-section-head > p {
+        font-size: 0.98rem;
+        line-height: 1.65;
+    }
+    .home-pulse {
+        gap: 12px;
+        margin-top: 25px;
+    }
+    .pulse-card {
+        min-height: 155px;
+        padding: 22px;
+    }
+    .pulse-card p {
+        font-size: 0.92rem;
+    }
+    .home-news,
+    .home-leaders,
+    .home-location {
+        padding-bottom: 30px;
+        padding-top: 42px;
+    }
+    .news-layout .carousel-container {
+        width: 100%;
+    }
+    .news-layout .slide img {
+        height: 270px;
+    }
+    .news-aside h3 {
+        font-size: 1.75rem;
+    }
+    .home-leaders .leader-grid {
+        gap: 16px;
+        grid-template-columns: 1fr;
+    }
+    .home-leaders .leader-card {
+        padding: 18px;
+    }
+    .leader-card img {
+        height: 290px;
+    }
+    .leader-card h3 {
+        font-size: 1.3rem;
+    }
+    .location-grid {
+        gap: 16px;
+    }
+    .map-panel,
+    .social-panel {
+        padding: 18px;
+    }
+    .map-frame {
+        height: 245px;
+    }
+    .social-panel h3 {
+        font-size: 1.75rem;
+    }
 
 
 @media (prefers-reduced-motion: reduce) {
