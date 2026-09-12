@@ -1159,7 +1159,7 @@ header {
         width: 100%;
     }
     .news-layout .slide img {
-        aspect-ratio: 4 / 3;
+        aspect-ratio: 1 / 1;
         display: block;
         height: auto;
         min-height: 0;
@@ -2069,6 +2069,10 @@ footer {
 .news-layout .carousel-container {
     margin: 0;
     max-width: none;
+}
+
+.news-layout .slide img {
+    height: 350px;
 }
 
 .news-aside {
