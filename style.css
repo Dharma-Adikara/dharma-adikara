@@ -1155,10 +1155,27 @@ header {
         padding-top: 42px;
     }
     .news-layout .carousel-container {
+        border-radius: 14px;
         width: 100%;
     }
     .news-layout .slide img {
-        height: 270px;
+        height: 340px;
+    }
+    .news-layout .caption {
+        font-size: 1rem;
+        line-height: 1.35;
+        padding: 26px 48px 20px;
+    }
+    .news-layout .prev-btn,
+    .news-layout .next-btn {
+        font-size: 16px;
+        padding: 11px 14px;
+    }
+    .news-layout .prev-btn {
+        left: 10px;
+    }
+    .news-layout .next-btn {
+        right: 10px;
     }
     .news-aside h3 {
         font-size: 1.75rem;
