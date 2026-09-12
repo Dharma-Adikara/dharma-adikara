@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak & Polling - Karang Taruna DHARMA ADIKARA</title>
+    <meta name="description" content="Hubungi Karang Taruna Dharma Adikara untuk kritik, saran, layanan, dan peluang kolaborasi di Desa Gunungsari, Madiun.">
+    <link rel="canonical" href="https://dharma-adikara-desa-gunung-sari.github.io/dharma-adikara/kontak.html">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo-brand">
+                <img src="aset/logo.png" alt="Logo Karang Taruna">
+                <span>DHARMA ADIKARA</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="kontak.html" class="active">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="page-overlay-decor contact-hero" style="background-image: url('aset/bg-blur.JPG');">
+    <div class="hero-content" style="padding: 60px 20px; text-align: center; color: white;">
+        <span class="contact-hero-kicker"><i class="fas fa-comments"></i> Ruang komunikasi</span>
+        <h1>Kontak & Kolaborasi</h1>
+        <p>Ide yang baik selalu dimulai dari percakapan yang terbuka.</p>
+  </div>
+</div>
+
+    
+        <main class="section-container container contact-page">
+                <section class="contact-intro reveal">
+                        <div><span class="section-kicker"><i class="fas fa-paper-plane"></i> Mari terhubung</span><h2>Ada cerita, ide, atau peluang kerja sama?</h2></div>
+                        <p>Hubungi tim Dharma Adikara untuk menyampaikan kritik, saran, kebutuhan layanan, atau rencana kolaborasi untuk Desa Gunungsari.</p>
+                </section>
+
+                <div class="contact-layout reveal">
+                        <section class="contact-form-box card">
+                                <div class="contact-card-heading"><span class="contact-step">01</span><div><span class="section-kicker">Kirim pesan</span><h2>Form Kritik & Saran</h2></div></div>
+                                <p class="contact-muted">Pesan Anda akan diteruskan langsung melalui WhatsApp agar dapat segera ditanggapi.</p>
+                <form id="feedbackForm">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" required placeholder="Masukkan nama Anda">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Alamat Email</label>
+                        <input type="email" id="email" required placeholder="nama@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Kritik / Saran / Pesan</label>
+                        <textarea id="message" rows="5" required placeholder="Tuliskan pesan atau saran Anda..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit"><i class="fab fa-whatsapp"></i> Kirim ke WhatsApp <i class="fas fa-arrow-up-right-from-square"></i></button>
+                </form>
+            </section>
+
+            <aside class="contact-side">
+                <section class="contact-channel card">
+                    <div class="contact-card-heading"><span class="contact-step">02</span><div><span class="section-kicker">Temukan kami</span><h2>Saluran komunikasi</h2></div></div>
+                    <div class="contact-address"><i class="fas fa-location-dot"></i><div><strong>Sekretariat Dharma Adikara</strong><p>Jl. Gajah Sorengpati No.3, Gunusari, Gunungsari, Kec. Madiun, Kabupaten Madiun, Jawa Timur 63151</p></div></div>
+                    <div class="contact-social-links">
+                        <a href="https://www.instagram.com/dharma_adikara/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i><span>Instagram<strong>@dharma_adikara</strong></span><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://www.tiktok.com/@dharma.adikaragunungsari" target="_blank" rel="noopener"><i class="fab fa-tiktok"></i><span>TikTok<strong>@dharma.adikaragunungsari</strong></span><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        <a href="-----" target="_blank" rel="noopener"><i class="fab fa-youtube"></i><span>YouTube<strong>Segera hadir</strong></span><i class="fas fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </section>
+
+                <section class="polling-box card">
+                    <div class="contact-card-heading"><span class="contact-step">03</span><div><span class="section-kicker">Penilaian pribadi</span><h2>Bagaimana pengalaman Anda?</h2></div></div>
+                    <p class="contact-muted">Pilih satu jawaban. Penilaian Anda membantu kami berkembang dan tidak ditampilkan sebagai angka publik.</p>
+                    <div class="emoji-options">
+                        <button type="button" onclick="vote('puas')" class="emoji-btn" data-vote="puas">
+                            <span>😍</span>
+                            <small>Puas</small>
+                        </button>
+                        <button type="button" onclick="vote('biasa')" class="emoji-btn" data-vote="biasa">
+                            <span>😐</span>
+                            <small>Cukup</small>
+                        </button>
+                        <button type="button" onclick="vote('tidakPuas')" class="emoji-btn" data-vote="tidakPuas">
+                            <span>🙁</span>
+                            <small>Perlu ditingkatkan</small>
+                        </button>
+                    </div>
+                    <div class="feedback-success" id="feedbackSuccess" hidden>
+                        <i class="fas fa-circle-check"></i>
+                        <span>Terima kasih. Masukan Anda sudah kami terima.</span>
+                    </div>
+                </section>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Karang Taruna DHARMA ADIKARA - Desa Gunungsari Madiun.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

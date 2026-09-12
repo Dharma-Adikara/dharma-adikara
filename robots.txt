@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dharma-adikara-desa-gunung-sari.github.io/dharma-adikara/sitemap.xml

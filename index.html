@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - Karang Taruna DHARMA ADIKARA</title>
+    <meta name="description" content="Website resmi Karang Taruna Dharma Adikara Desa Gunungsari, Madiun. Kenali kegiatan pemuda, layanan digital, galeri, dan informasi organisasi.">
+    <link rel="canonical" href="https://dharma-adikara-desa-gunung-sari.github.io/dharma-adikara/">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+   <div class="page-overlay-decor"></div>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo-brand">
+                <img src="aset/logo.png" alt="Logo Karang Taruna">
+                <span>DHARMA ADIKARA</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="homepage">
+        <section class="hero-section home-hero">
+            <div class="hero-glow hero-glow-one"></div>
+            <div class="hero-glow hero-glow-two"></div>
+            <div class="hero-content home-hero-content reveal">
+                <span class="hero-eyebrow"><i class="fas fa-location-dot"></i> Desa Gunungsari, Madiun</span>
+                <img src="aset/logo.png" alt="Logo Dharma Adikara" class="hero-logo">
+                <h1>Bergerak dari desa,<br><em>berdampak lebih luas.</em></h1>
+                <p>Karang Taruna DHARMA ADIKARA adalah ruang bagi pemuda-pemudi untuk bersatu, berkarya, dan membangun potensi desa dengan cara yang relevan.</p>
+                <div class="hero-actions">
+                    <a href="profil.html" class="hero-button hero-button-primary">Kenali kami <i class="fas fa-arrow-right"></i></a>
+                    <a href="galeri.html" class="hero-button hero-button-ghost">Lihat kegiatan</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-intro container reveal">
+            <div class="intro-heading"><span class="home-kicker">01 / Tentang kami</span><h2>Energi muda untuk cerita yang lebih berarti.</h2></div>
+            <div class="intro-copy"><p>Kami percaya desa punya banyak cerita, talenta, dan peluang. Dharma Adikara hadir sebagai tempat untuk menghubungkan semuanya melalui kegiatan sosial, kreativitas, dan kolaborasi.</p><a href="profil.html" class="text-link">Baca kisah kami <i class="fas fa-arrow-right"></i></a></div>
+        </section>
+
+        <section class="home-pulse container reveal" aria-label="Ringkasan kegiatan">
+            <div class="pulse-card pulse-card-main"><span class="pulse-icon"><i class="fas fa-bolt"></i></span><strong>Aktif berkarya</strong><p>Dari kegiatan warga hingga inisiatif digital, kami terus membuka ruang untuk bergerak bersama.</p><a href="layanan.html">Jelajahi layanan <i class="fas fa-arrow-right"></i></a></div>
+            <div class="pulse-card"><span class="pulse-value">2026</span><span class="pulse-label">Tahun dokumentasi</span><p>Rekam jejak kegiatan tersusun dalam galeri.</p></div>
+            <div class="pulse-card"><span class="pulse-value">01</span><span class="pulse-label">Semangat utama</span><p>Bersatu, berkarya, membangun desa.</p></div>
+        </section>
+
+        <section class="home-news section-container container reveal">
+            <div class="home-section-head"><div><span class="home-kicker">02 / Dari lapangan</span><h2>Berita & kegiatan terkini</h2></div><p>Potongan momen yang membuat desa terus hidup.</p></div>
+            <div class="news-layout">
+                <div class="carousel-container">
+                    <div class="carousel-slide" id="carouselSlide">
+                        <div class="slide"><img src="aset/berita-1.jpg" alt="Jalan Sehat GADING ELAWANA"><div class="caption">Jalan Sehat GADING ELAWANA</div></div>
+                        <div class="slide"><img src="aset/berita-2.jpg" alt="FUN WALK GADING ELAWANA"><div class="caption">FUN WALK GADING ELAWANA</div></div>
+                        <div class="slide"><img src="aset/berita-3.jpg" alt="NIGHT CARNIVAL"><div class="caption">NIGHT CARNIVAL</div></div>
+                        <div class="slide"><img src="aset/berita-4.jpg" alt="Peringatan Hari Kemerdekaan"><div class="caption">Peringatan Hari Kemerdekaan</div></div>
+                        <div class="slide"><img src="aset/berita-5.jpg" alt="Pendaftaran sekolah rakyat"><div class="caption">Pendaftaran sekolah rakyat</div></div>
+                    </div>
+                    <button class="prev-btn" aria-label="Berita sebelumnya" onclick="prevSlide()"><i class="fas fa-arrow-left"></i></button>
+                    <button class="next-btn" aria-label="Berita berikutnya" onclick="nextSlide()"><i class="fas fa-arrow-right"></i></button>
+                </div>
+                <aside class="news-aside"><span class="news-aside-label">Yang terbaru</span><h3>Setiap kegiatan punya cerita.</h3><p>Ikuti perjalanan kami melalui dokumentasi kegiatan yang terus bertambah.</p><a href="galeri.html" class="text-link">Buka galeri <i class="fas fa-arrow-right"></i></a></aside>
+            </div>
+        </section>
+
+        <section class="home-leaders section-container container reveal">
+            <div class="home-section-head"><div><span class="home-kicker">03 / Di balik gerakan</span><h2>Orang-orang yang menggerakkan.</h2></div><p>Kolaborasi dimulai dari orang yang mau hadir dan mengambil peran.</p></div>
+            <div class="leader-grid">
+                <div class="card leader-card"><img src="aset/ketua-karta.jpg" alt="Ketua Karang Taruna"><span class="leader-role">Ketua Karang Taruna</span><h3>Irvan Harjianto</h3><p>Memimpin langkah dan menjaga arah gerak organisasi.</p></div>
+                <div class="card leader-card"><img src="aset/ketua-panitia.jpg" alt="Wakil Ketua Karang Taruna"><span class="leader-role">Wakil Ketua Karang Taruna</span><h3>Farsya Aqila</h3><p>Menghubungkan ide, kegiatan, dan semangat kolaborasi.</p></div>
+            </div>
+        </section>
+
+        <section class="home-location section-container container reveal">
+            <div class="home-section-head"><div><span class="home-kicker">04 / Temukan kami</span><h2>Berawal dari satu titik.</h2></div><p>Kenali lokasi dan ikuti aktivitas Dharma Adikara melalui kanal kami.</p></div>
+            <div class="location-grid">
+                <div class="map-panel"><div class="map-heading"><i class="fas fa-map-pin"></i><span><strong>Desa Gunungsari, Madiun</strong><small>Jawa Timur, Indonesia</small></span></div><div class="map-frame"><iframe loading="lazy" allowfullscreen title="Peta lokasi Desa Gunungsari" src="https://maps.google.com/maps?q=-7.573979698699071,111.5399550325332&hl=id&z=16&output=embed"></iframe></div></div>
+                <div class="social-panel"><span class="home-kicker">Tetap terhubung</span><h3>Ikuti cerita kami.</h3><p>Temukan kabar, karya, dan kegiatan terbaru dari pemuda Desa Gunungsari.</p><a href="https://www.tiktok.com/@dharma.adikaragunungsari" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i> TikTok <i class="fas fa-arrow-up-right-from-square"></i></a><a href="https://www.instagram.com/dharma_adikara/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram <i class="fas fa-arrow-up-right-from-square"></i></a><a href="-----" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> YouTube <i class="fas fa-arrow-up-right-from-square"></i></a></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Karang Taruna DHARMA ADIKARA - Desa Gunungsari Madiun.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
